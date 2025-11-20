@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  streamer:
+    build: .
+    restart: always
+    environment:
+      - STREAM_KEY=YOUR_KEY_HERE
+      - PORT=3000
+    ports:
+      - "3000:3000"
+    # If you are using a local video file, uncomment below to mount it
+    # volumes:
+    #   - ./myvideo.mp4:/app/video.mp4

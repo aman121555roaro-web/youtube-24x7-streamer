@@ -1,0 +1,14 @@
+{
+  "name": "streamloop-bot",
+  "version": "1.0.0",
+  "description": "24/7 YouTube Streamer",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "fluent-ffmpeg": "^2.1.2"
+  }
+}
